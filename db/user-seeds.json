@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Logan Clarke",
+        "email": "tclarke2294@yahoo.com",
+        "password":"fake_password",
+        "company":"Trader Joe's",
+        "link_to_github":"https://github.com/tclarke94",
+        "location":"Denver, Colorado",
+        "hobbies":"Coding, Basketball"
+    },
+    {
+        "name": "Larry Jones",
+        "email": "mrlarry@aol.com",
+        "password":"fake_password1",
+        "company":"Google",
+        "link_to_github":"https://github.com/larrysgit",
+        "location":"Aurora, Colorado",
+        "hobbies":"Coding, Cooking"
+    },
+    {
+        "name": "Hank Hill",
+        "email": "Hank1000@yahoo.com",
+        "password":"fake_password2",
+        "company":"Strickland Propane",
+        "link_to_github":"https://github.com/hankhill",
+        "location":"Arlen, Texas",
+        "hobbies":"Programming, Sales"
+
+
+
+
+    }
+]
