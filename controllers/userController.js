@@ -10,20 +10,14 @@ router.get('/', (req,res) => {
     )
 });
 
+router.get('/', (req,res) => {
+    User.find({}).then((data)=>
+    res.json(data)
+    )
+});
 //Add new user
-router.post('/users', (req,res)=> {
-    // User.create(req.body).then(data) =>res.json((data)
-    User.create(req.body).then((data)=> res.redirect('/users'))
-//    (User.create(req.body))
-//     .then(()=> res.json())
-// router.post('/users', (req, res) => {
-//     User.create(req.body)
-//       .then((users) => {
-//         res.json('/users');
-//       })
-//       .catch(console.error);
-//   });
-  
+router.post('/', (req,res)=> {
+    User.create(req.body).then(() => res.redirect('/'))  
 })
 
 
