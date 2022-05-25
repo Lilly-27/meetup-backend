@@ -1,15 +1,20 @@
 //Models
 const mongoose = require('../db/server')
+// const validator = require('validator')
 
 
 const UserSchema = new mongoose.Schema({
     name: String,
     email: String,
     password: String,
-    company: String,
+    user_company: String,
     link_to_github: String,
-    location: String,
-    hobbies: String
+    user_location: String,
+    hobbies: String,
+    event: {
+        type: mongoose.Types.ObjectId,
+        ref: "Event"    },
+
 })
 
 

@@ -1,20 +1,20 @@
-//Models
-const { Schema } = require('mongoose')
 const mongoose = require('../db/server')
-
-
+// const validator = require('validator')
 const EventSchema = new mongoose.Schema({
     date: String,
     time: String,
-    location: String,
+    event_location: String,
     address: String,
-    company: String,
-    // user_profile_info: [{type: Schema.Types.ObjectId, ref: 'User'}],
+    event_company: String,
     event_blurb: String,
     event_picture: String,
-    hosts: String
+    user: {
+        type: mongoose.Types.ObjectId,
+        ref: "User"    },
+
 })
 
+    
 
 
 

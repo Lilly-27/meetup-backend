@@ -4,9 +4,11 @@ const bodyParser = require('body-parser');
 const app = express();
 
 const userController = require('./controllers/userController');
+const eventController = require('./controllers/eventController')
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(userController);
+app.use('/users', userController);
+app.use('/events', eventController);
 app.use(methodOverride('_method'))
 app.use(express.static(__dirname + '/' + 'public'));
 app.use(methodOverride('_method'));

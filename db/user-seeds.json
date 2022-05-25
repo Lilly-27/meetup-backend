@@ -1,12 +1,16 @@
 [
-    {
+    {   
+        
         "name": "Logan Clarke",
         "email": "tclarke2294@yahoo.com",
         "password":"fake_password",
         "company":"Trader Joe's",
         "link_to_github":"https://github.com/tclarke94",
         "location":"Denver, Colorado",
-        "hobbies":"Coding, Basketball"
+        "hobbies":"Coding, Basketball",
+        "event": {
+            "id": "628d7abcc44eebd12ca7307c"
+        }
     },
     {
         "name": "Larry Jones",
@@ -15,7 +19,12 @@
         "company":"Google",
         "link_to_github":"https://github.com/larrysgit",
         "location":"Aurora, Colorado",
-        "hobbies":"Coding, Cooking"
+        "hobbies":"Coding, Cooking",
+        "event":{
+            "id": "61d634706a98a61edd42bf46"
+            
+        
+        }
     },
     {
         "name": "Hank Hill",
@@ -24,10 +33,9 @@
         "company":"Strickland Propane",
         "link_to_github":"https://github.com/hankhill",
         "location":"Arlen, Texas",
-        "hobbies":"Programming, Sales"
-
-
-
-
-    }
+        "hobbies":"Programming, Sales",
+        "event":{
+            "id": "61d634706a98a61edd42bf44"
+          
+        }}
 ]
