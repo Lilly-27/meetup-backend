@@ -9,7 +9,7 @@
         "location":"Denver, Colorado",
         "hobbies":"Coding, Basketball",
         "event": {
-            "id": "628d7abcc44eebd12ca7307c"
+            "_id": "628d7abcc44eebd12ca7307c"
         }
     },
     {
@@ -21,10 +21,8 @@
         "location":"Aurora, Colorado",
         "hobbies":"Coding, Cooking",
         "event":{
-            "id": "61d634706a98a61edd42bf46"
-            
-        
-        }
+            "_id": "61d634706a98a61edd42bf46"
+            }
     },
     {
         "name": "Hank Hill",
@@ -35,7 +33,7 @@
         "location":"Arlen, Texas",
         "hobbies":"Programming, Sales",
         "event":{
-            "id": "61d634706a98a61edd42bf44"
-          
-        }}
+            "_id": "61d634706a98a61edd42bf44"
+          }
+    }
 ]
