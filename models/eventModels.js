@@ -8,6 +8,7 @@ const EventSchema = new mongoose.Schema({
     event_company: String,
     event_blurb: String,
     event_picture: String,
+    event_type: String,
     user: {
         type: mongoose.Types.ObjectId,
         ref: "User"    },
