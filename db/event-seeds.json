@@ -7,6 +7,7 @@
         "company": "General Assembly",
         "event_blurb": "Have some drinks and code!",
         "event_picture": "..",
+        "event_type":"",
         "user": {
             "id": "628d7a023b7e4048f99573b3"
         }
@@ -19,6 +20,7 @@
         "company": "General Assembly",
         "event_blurb": "Have some coffee and code!",
         "event_picture": "https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Sprudge-CorvusCoffee-ZacCadwalader-Corvus-Outdoor-1-Caitlin-Fairly-740x493.jpg",
+        "event_type":"",
         "user":{
             "id": "628d7a023b7e4048f99573b3"
            
