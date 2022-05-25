@@ -1,6 +1,5 @@
 //Models
 const mongoose = require('../db/server')
-// const validator = require('validator')
 
 
 const UserSchema = new mongoose.Schema({

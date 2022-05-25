@@ -1,5 +1,5 @@
 const mongoose = require('../db/server')
-// const validator = require('validator')
+
 const EventSchema = new mongoose.Schema({
     date: String,
     time: String,
