@@ -6,6 +6,7 @@ const cors = require('cors');
 
 const userController = require('./controllers/userController');
 const eventController = require('./controllers/eventController')
+app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/users', userController);
