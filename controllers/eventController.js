@@ -12,6 +12,8 @@ router.get('/', (req,res) => {
     )
 });
 
+
+
 // Create an event
 router.post('/', (req,res)=> {
     console.log(req.body)
@@ -29,4 +31,10 @@ router.delete('/:id', async (req, res)=>{
     res.json(await Event.findByIdAndRemove(req.params.id))
 })
 
+//Show route
+router.get('/:id', (req,res) => {
+    Event.findById(req.params.id).then((data)=>
+    res.json(data)
+    )
+});
 module.exports = router
