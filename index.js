@@ -19,10 +19,20 @@ app.use(express.urlencoded({extended: true}));
 
 const PORT = process.env.PORT || 4000
 
-app.get('/', (req, res) => {
-    res.set('Access-Control-Allow-Origin', '*');
-    res.send({ "msg": "This has CORS enabled" })
-    })
+app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "*" );
+    res.header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    );
+    next();
+  });
+  
+
+// app.get('/', (req, res) => {
+//     res.set('Access-Control-Allow-Origin', '*');
+//     res.send({ "msg": "This has CORS enabled" })
+//     })
 
 app.listen(PORT, ()=>{
     console.log('app running')
