@@ -38,6 +38,12 @@ router.get('/:id', (req,res) => {
     )
 });
 
+router.get('display/:id', (req,res) => {
+    Event.findById(req.params.id).then((data)=>
+    res.json(data)
+    )
+});
+
 //Find by a field
 router.get('/coffeechats', (req,res)=>{
     Event.find({tag:'coffee_chats'}),(err, event).then((data)=>
