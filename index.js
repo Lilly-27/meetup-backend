@@ -9,8 +9,8 @@ const eventController = require('./controllers/eventController')
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use('/users', userController);
-app.use('/events', eventController);
+app.use('/api/users', userController);
+app.use('/api/events', eventController);
 app.use(methodOverride('_method'))
 app.use(express.static(__dirname + '/' + 'public'));
 app.use(methodOverride('_method'));
