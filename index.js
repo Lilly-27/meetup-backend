@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/api/users', userController);
 app.use('/api/events', eventController);
-app.use('/api/events', tagController)
+app.use('/api', tagController)
 app.use(methodOverride('_method'))
 app.use(express.static(__dirname + '/' + 'public'));
 app.use(methodOverride('_method'));
