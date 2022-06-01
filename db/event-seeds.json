@@ -1,5 +1,6 @@
 [
     {
+        "event_name": "Meet at OMF",
         "date": "09-22-2022",
         "time": "5 PM",
         "location": "Our Mutual Friend Brewery",
@@ -7,12 +8,13 @@
         "company": "General Assembly",
         "event_blurb": "Have some drinks and code!",
         "event_picture": "..",
-        "event_type":".",
+        "tag":".",
         "user": {
             "_id": "628d7a023b7e4048f99573b3"
         }
     },
     {
+        "event_name": "Coffee and Code",
         "date": "06-12-2022",
         "time": "2 PM",
         "location": "Corvus Coffee Roasters",
@@ -20,12 +22,13 @@
         "company": "General Assembly",
         "event_blurb": "Have some coffee and code!",
         "event_picture": "https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Sprudge-CorvusCoffee-ZacCadwalader-Corvus-Outdoor-1-Caitlin-Fairly-740x493.jpg",
-        "event_type":".",
+        "tag":".",
         "user":{
             "_id": "628d7a023b7e4048f99573b3"
         }
     },
     {
+        "event_name": "Thump code sesh",
         "date": "07-10-2022",
         "time": "Noon",
         "location": "Thump Coffee",
@@ -33,7 +36,7 @@
         "company": "General Assembly",
         "event_blurb": "Have some coffee and code!",
         "event_picture": "..",
-        "event_type": ".",
+        "tag": ".",
         "user": {
             "_id":"628d7a023b7e4048f99573b3"
         }
