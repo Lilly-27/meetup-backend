@@ -7,8 +7,8 @@
         "address": "2810 Larimer St, Denver, CO",
         "company": "General Assembly",
         "event_blurb": "Have some drinks and code!",
-        "event_picture": "..",
-        "tag":".",
+        "event_picture": "https://asmallprintshop.com/wp-content/uploads/2020/11/omf-1-1.png",
+        "tag":"Social",
         "user": {
             "_id": "628d7a023b7e4048f99573b3"
         }
@@ -22,7 +22,7 @@
         "company": "General Assembly",
         "event_blurb": "Have some coffee and code!",
         "event_picture": "https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Sprudge-CorvusCoffee-ZacCadwalader-Corvus-Outdoor-1-Caitlin-Fairly-740x493.jpg",
-        "tag":".",
+        "tag":"Coffee Chats",
         "user":{
             "_id": "628d7a023b7e4048f99573b3"
         }
@@ -35,8 +35,8 @@
         "address": "1201 E 13th Ave, Denver, CO",
         "company": "General Assembly",
         "event_blurb": "Have some coffee and code!",
-        "event_picture": "..",
-        "tag": ".",
+        "event_picture": "https://images.squarespace-cdn.com/content/v1/5c4f8fd25417fc08ead64cd9/1550698942988-WFJLYM3OXQ0AVXMF8EKV/TL-2.22.19-11.jpeg",
+        "tag": "Coffee Chats",
         "user": {
             "_id":"628d7a023b7e4048f99573b3"
         }
