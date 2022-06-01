@@ -6,11 +6,13 @@ const cors = require('cors');
 
 const userController = require('./controllers/userController');
 const eventController = require('./controllers/eventController')
+const tagController = require('./controllers/tagController')
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/api/users', userController);
 app.use('/api/events', eventController);
+app.use('/api/events', tagController)
 app.use(methodOverride('_method'))
 app.use(express.static(__dirname + '/' + 'public'));
 app.use(methodOverride('_method'));
