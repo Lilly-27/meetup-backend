@@ -18,9 +18,26 @@ router.get('/socials', (req,res)=>{
 })
 
 router.get('/codingsessions', (req,res)=>{
-    Event.find({'tag':'coding_sessions'}).then((data)=>
+    Event.find({'tag': 'socials'}).then((data)=>
+    res.json(data)
+    )
+})
+//with id
+router.get('/coffeechats/:id', (req,res)=>{
+    Event.findById(req.params.id).then((data)=>
     res.json(data)
     )
 })
 
+router.get('/socials/:id', (req,res)=>{
+    Event.findById(req.params.id).then((data)=>
+    res.json(data)
+    )
+})
+
+router.get('/codingsessions/:id', (req,res)=>{
+    Event.findById(req.params.id).then((data)=>
+    res.json(data)
+    )
+})
 module.exports = router
